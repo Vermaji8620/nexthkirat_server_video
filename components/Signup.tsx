@@ -31,7 +31,8 @@ const Signup = () => {
           className="bg-red-600"
           onClick={() => {
             axios.post("http://localhost:3000/api/user", {
-                username, password
+              username,
+              password,
             });
           }}
         >
